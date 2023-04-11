@@ -3,3 +3,6 @@ def solution(s):
 
 # Return the middle charater or string of the 's'. If the length of 's' is odd, return the middle character
 # else return the 2 middle string
+
+assert(solution('abcde') == 'c')
+assert(solution('qwer') == 'we')
