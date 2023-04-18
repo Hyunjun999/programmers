@@ -5,3 +5,6 @@ def solution(left, right):
 # Find the number of divisor from the left and right number inclusively.
 # If the number of divisor each number is even, add all of them. 
 # Else the number of divisor of each number is odd, subtract from the aggregate
+
+assert(solution(13, 17) == 43)
+assert(solution(24, 27) == 52)
