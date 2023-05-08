@@ -1,6 +1,9 @@
 def solution(s):
-    return ''.join(sorted(list(s), reverse = True))
+    # return ''.join(sorted(list(s), reverse = True))
+    return str("".join(reversed(sorted(s))))
 
-# Return the reversed string 's'
 
-assert(solution("Zbcdefg") == "gfedcbZ")
+# Sort the string 's' following the descending order.
+# Assume that the uppercase is the smaller than the lowercase.
+
+assert solution("Zbcdefg") == "gfedcbZ"
